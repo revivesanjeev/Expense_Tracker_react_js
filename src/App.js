@@ -1,7 +1,6 @@
+import Expenses from "./componets/Expenses/Expenses";
 
-import Expenses from './componets/Expenses'
-
-function App() {
+const App = () => {
   const expenses = [
     { id: "1", date: new Date(2023, 7, 15), title: "Insurance", price: 100 },
     { id: "2", date: new Date(2023, 3, 25), title: "Book", price: 10 },
@@ -15,6 +14,6 @@ function App() {
       <Expenses expenses={expenses} />
     </div>
   );
-}
+};
 
 export default App;

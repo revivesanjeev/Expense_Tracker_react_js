@@ -17,8 +17,8 @@ const months = [
   "December",
 ];
 
-function ExpenseDate(props) {
-    
+const ExpenseDate=(props) => {
+
   const month = months[props.date.getMonth()];
   const year = props.date.getFullYear();
   const day = props.date.getDate().toString().padStart(2, "0");
