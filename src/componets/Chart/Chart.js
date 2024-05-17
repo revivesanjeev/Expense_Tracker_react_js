@@ -30,7 +30,7 @@ const Chart = (props) => {
   }
 
   return (
-    <div className="c">
+    <div className="chart">
       {chartData.map((monthData) => {
         return (
           <ChartBar

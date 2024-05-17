@@ -29,7 +29,7 @@ const Expenses = (props) => {
       />
 
       {/* //selecting the year from date and converting it to the string if equal then it will only pass to the expense */}
-      <ExpensesChart filteredExpensesForChart={filteredExpenses} />
+      <ExpensesChart chartData={filteredExpenses} />
       <ExpensesList items={filteredExpenses} />
     </Card>
   );
